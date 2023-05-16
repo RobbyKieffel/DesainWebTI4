@@ -2,57 +2,64 @@
 
 <html>
 <head>
-    <title>Games</title>
+    <title>Game Mania</title>
 	<link href ="style.css" rel ="stylesheet">
 </head>
 
 <body>
     <nav>
         <div class="container">
-            <a class="brand" href= "#">Game Mania</a>
-            <input type="text">
+            <a class="brand" href= "#Home">Game Mania</a>
+            <input type="text" placeholder="Search">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href= "#">About</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#GameLS">Games</a></li>
+                <li><a href= "#Ab">About</a></li>
             </ul>
         </div>
     </nav>
-    <div class="TopGames">
+    <div class="TopGames" id="Home">
         <video src="Image/ML_Walpaper.mp4" autoplay loop muted></video>
         <div class="container">
             <h1>Mobile Legends</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi minima veritatis itaque dolorem cum! Fuga dolor enim culpa dolores aperiam?</p>
             <div class="ReadMore">
-                <a href="#">Read More</a>
+                <a href="Review/MobileLegend.html">Read More</a>
             </div>
         </div>
     </div>
-    <div class="GameList">
+    <div class="GameList" id="GameLS">
         <h1>Games</h1>
         <div class="container">
             <ul>
                 <li>
-                    <img src="Image/MobileLegend.png">
-                    <h2>Pubg Mobile</h2>
+                    <a href="Review/PUBG.html">
+                        <img src="Image/Pubg.jpg">
+                        <h2 class="GameTL">Pubg Mobile</h2>
+                    </a>
                 </li>
                 <li>
-                    <img src="Image/Proxima.png">
-                    <h2>Proxima Roki</h2>
+                    <a href="Review/Proxima.html">
+                        <img src="Image/Proxima.png">
+                        <h2 class="GameTL">Proxima Roki</h2>
+                    </a>
                 </li>
                 <li>
-                    <img src="Image/Slither.png">
-                    <h2>Slither Io</h2>
+                    <a href="Review/slither.html">
+                        <img src="Image/Slither.jpg">
+                        <h2 class="GameTL">Slither Io</h2>
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 
-    <div class="About">
+    <div class="About" id="Ab">
+        <h1>About</h1>
         <div class="container">
             <ul>
                 <li>
-                    <img src="Image/BlankProfile.png" alt="">
+                    <img src="Image/Profile1.png" alt="">
                     <p>
                         Robby Efruan
                         <br>
@@ -60,7 +67,7 @@
                     </p>
                 </li>
                 <li>
-                    <img src="Image/BlankProfile.png" alt="">
+                    <img src="Image/Profile2.jpg" alt="">
                     <p>
                         Kevin Patimahu
                         <br>
@@ -68,7 +75,7 @@
                     </p>
                 </li>
                 <li>
-                    <img src="Image/BlankProfile.png" alt="">
+                    <img src="Image/Profile3.jpg" alt="">
                     <p>
                         Levi Pitoy
                         <br>
@@ -76,7 +83,7 @@
                     </p>
                 </li>
                 <li>
-                    <img src="Image/BlankProfile.png" alt="">
+                    <img src="Image/Profile4.jpg" alt="">
                     <p>
                        Nathanael Janis
                         <br>
